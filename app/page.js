@@ -1,8 +1,10 @@
+import NavBar from "@/components/navBar";
 import Socials from "@/components/socials";
 
 export default function Home() {
   return (
     <main className="bg-blue-800">
+      <NavBar></NavBar>
       <div className="grid h-screen place-content-center">
         <h1 className="text-center text-3xl">Joe Fuller</h1>
         <div className="place-self-center w-7/12">
