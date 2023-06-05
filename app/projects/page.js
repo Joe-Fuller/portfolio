@@ -10,8 +10,13 @@ export default function Projects() {
       <h1 className="text-2xl">Projects</h1>
       <ProjectCard
         title="Wikipedia Game"
-        url="https://the-wikipedia-game.netlify.app/"
+        url="https://the-wikipedia-game.netlify.app"
         description="A browser game built using React. Try to get from one Wikipedia article to another using only links!"
+      ></ProjectCard>
+      <ProjectCard
+        title="All Aboard"
+        url="https://nc-all-aboard.netlify.app"
+        description="A website for board game enthusiasts to chat, organise, and meet up."
       ></ProjectCard>
     </div>
   );
