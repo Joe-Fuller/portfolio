@@ -3,9 +3,9 @@ import Socials from "@/components/socials";
 
 export default function Home() {
   return (
-    <main className="bg-blue-800">
+    <main>
       <NavBar></NavBar>
-      <div className="grid h-screen place-content-center">
+      <div className="grid h-screen place-content-center text-darkGrey">
         <h1 className="text-center text-3xl">Joe Fuller</h1>
         <div className="place-self-center w-7/12">
           <p className="text-center text-xl">
