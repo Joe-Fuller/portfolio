@@ -4,7 +4,7 @@ import Socials from "@/components/socials";
 
 export default function Projects() {
   return (
-    <div className="grid justify-center text-darkGrey">
+    <div className="grid justify-center text-darkGrey space-y-2">
       <NavBar></NavBar>
       <Socials></Socials>
       <h1 className="text-2xl">Projects</h1>
