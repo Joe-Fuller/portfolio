@@ -6,11 +6,16 @@ export default function About() {
     <div>
       <NavBar></NavBar>
       <Socials></Socials>
-      <p>
-        I am a 26 year old full-stack developer looking for my first tech role.
-        I have experience in JavaScript, SQL, C#, and Python as well as React,
-        NextJS, Tailwind, Unity, Godot, and more!
-      </p>
+      <div className="grid h-screen place-content-center text-darkGrey text-center">
+        <p className="w-7/12 place-self-center text-xl">
+          I am a 26 year old full-stack developer looking for my first tech
+          role. I have experience in JavaScript, SQL, C#, and Python as well as
+          React, NextJS, Tailwind, Unity, Godot, and more!
+        </p>
+        <p>
+          I'm a vegan and I love cooking, baking, houseplants, and my cat Eddie
+        </p>
+      </div>
     </div>
   );
 }
