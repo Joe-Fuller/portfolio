@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Socials() {
   return (
-    <div className="fixed inset-y-0 grid">
+    <div className="fixed inset-y-0 grid p-4">
       <a className="place-self-end " href="https://github.com/Joe-Fuller">
         <Image src="/github.png" width="60" height="60" alt="Link to GitHub" />
       </a>
