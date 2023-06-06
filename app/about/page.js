@@ -22,7 +22,8 @@ export default function About() {
           React, NextJS, Tailwind, Unity, Godot, and more!
         </p>
         <p className="w-7/12 place-self-center text-xl">
-          I'm a vegan and I love cooking, baking, houseplants, and my cat Eddie
+          I'm a vegan and I love cooking, baking, houseplants, reading, and my
+          cat Eddie
         </p>
       </div>
     </div>
