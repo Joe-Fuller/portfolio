@@ -11,8 +11,8 @@ export default function About() {
         <Image
           className="place-self-center"
           src="/JoesFace.jpg"
-          width="200"
-          height="200"
+          width="350"
+          height="350"
           alt="Joe Fuller's face"
         />
         <p>A picture of me in Japan, April 2023</p>
@@ -21,7 +21,7 @@ export default function About() {
           role. I have experience in JavaScript, SQL, C#, and Python as well as
           React, NextJS, Tailwind, Unity, Godot, and more!
         </p>
-        <p>
+        <p className="w-7/12 place-self-center text-xl">
           I'm a vegan and I love cooking, baking, houseplants, and my cat Eddie
         </p>
       </div>
