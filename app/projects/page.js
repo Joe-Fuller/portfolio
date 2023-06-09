@@ -18,6 +18,11 @@ export default function Projects() {
         url="https://nc-all-aboard.netlify.app"
         description="A website for board game enthusiasts to chat, organise, and meet up."
       ></ProjectCard>
+      <ProjectCard
+        title="Yahtzee"
+        url="https://babys-first-yahtzee.netlify.app"
+        description="It's Yahtzee, if you don't know how to play it's explained on the page."
+      ></ProjectCard>
     </div>
   );
 }
